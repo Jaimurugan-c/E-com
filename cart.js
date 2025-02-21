@@ -73,7 +73,7 @@ function addCart(){
 
  //Check Product already Exist in Cart
  if(itemList.find((el)=>el.title==newProduct.title)){
-  alert("Product Already added in Cart");
+  alert(" Already added in Cart");
   return;
  }else{
   itemList.push(newProduct);

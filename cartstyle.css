@@ -46,7 +46,15 @@ header{
   position: relative;
 }
 
-.cart-count{
+.cart-count{.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
   position: absolute;
   background-color: #2f3542;
   top: -5px;
@@ -54,7 +62,15 @@ header{
   padding: 3px;
   height: 20px;
   width: 20px;
-  line-height:20px ;
+  line-height:20px ;.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
   border-radius: 50%;
   z-index: 99;
 }
@@ -77,12 +93,28 @@ img{
 }
 
 h2.title{
-  font-size: 1.1rem;
+  font-size: 1.1rem;.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
   font-weight: 500;
   margin-bottom: 1.5rem;
   color:#ffffff;
 }
-
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
 .shop-content{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(220px,auto));
@@ -116,14 +148,30 @@ transform: scale(1.5);
 .food-title{
   font-size: 1rem;
   font-weight: 600;
-  color:#ff6348;
+  color:#ff6348;.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
 }
 
 .food-price{
   font-weight:500 ;
 }
 
-.add-cart{
+.add-cart{.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
   position: absolute;
   bottom: 0;
   right: 0;
@@ -252,3 +300,17 @@ transform: scale(1.5);
   font-size: 2rem;
   cursor: pointer;
 }
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+}
+
